@@ -1,0 +1,128 @@
+*{
+    font-family:"josefin Sans";
+    border-radius: 15%;
+    
+}
+
+@font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    src:"https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap";
+}
+
+.navigation{
+    background-color: bisque;
+    width: 100%;
+    margin-top: 0;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+   
+}
+
+.navigation p{
+   
+    background-color: aqua;
+    display: inline-block;
+    
+}
+
+
+.links {
+    
+    float: right;
+    
+}
+
+.links li{
+    
+    margin-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+
+.links li a {
+    text-decoration: none;
+    background-color: burlywood;
+    margin-right: 20px;
+    
+
+}
+
+.title{
+    
+    background-color: coral;
+    position: relative;
+    top: 29px;
+    text-align: center;
+    
+}
+
+.hero h1{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+/*---------------*/
+.activities{
+    
+    display: flex;
+    max-width: 100%;
+    background-color: cadetblue;
+    justify-content: space-between;
+    
+}
+
+.image-box{
+
+  width: 33%;
+  margin: 0px 0px;
+  
+}
+
+.activities img{
+  
+ width: 100%;
+ height: 200px;
+     
+}
+
+.activities figcaption{
+    text-align: center;
+}
+
+
+
+/*---MEMBERS----*/
+.members h1{
+    text-align: center;
+}
+
+.members-faces{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.facce{
+    width: 33%;
+    
+}
+
+.facce img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.facce figcaption{
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+}
